@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    height: 80px;
+}
+.services, .about, .gallery, .map, .contact {
+    padding: 20px;
+}
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.image-row img {
+    width: 100px;
+    height: auto;
+    border: 1px solid #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
